@@ -20,114 +20,134 @@
   </head>
   <body>
       <header>
-          
+          <img src="logo.png">
+          <h1>ajudaê</h1>
           
       </header>
     
-      <section>
+      <section>    
         <div class="container">
-            <h1>Encontre uma instituição</h1>
+            <h3>Encontre uma instituição</h3>
             
 
             <div class="row">
-              <div class="col-8">
-                <input class="form-control" placeholder="Digite aqui sua pesquisa" type="search" id="pesquisa" oninput="limpar()" />
+              <div class="col-10">
+                <input class="form-control" placeholder="Digite aqui o nome da cidade ou instituição" type="search" id="pesquisa" oninput="limpar()" />
       
               </div>
-              <div class="col-4">
-                <button class="btn btn-outline-dark" type="button" onclick="filtrar()">Filtrar</button>
+
+              <div class="col-2">
+                <button class="btn btn-outline-dark w-100" type="button" onclick="filtrar()">Filtrar</button>
       
               </div>
               <ul id="lista" class="row" style="padding: 0; margin: 0">
         
                 <div class="col-4 item">
-                  <h4>REAME</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> Av. Santa Luzia 1032</p>
-                  <p>Santa Luzia</p>
-                  <p>CEP 24722-315</p>
-                  <p>São Gonçalo - RJ</p>
-                  <p> <i class="fas fa-phone-alt"></i> (21) 2702-0044</p>
-                  <i class="fas fa-globe"></i> <a  target="_blank" href="http://reame.org.br/site/">reame.org.br</a>
+                  <div class="card">
+                    <h4>REAME</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Av. Santa Luzia 1032</p>
+                    <p>Santa Luzia</p>
+                    <p>CEP 24722-315</p>
+                    <p>São Gonçalo - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i> (21) 2702-0044</p>
+                     <a  target="_blank" href="http://reame.org.br/site/"> <i class="fas fa-globe"></i> reame.org.br</a>
+                    </div>
                 </div>
                 
                 <div class="col-4 item">
-                  <h4>Ama Vida</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> R.Cadete Xavier Leal 23</p>
-                  <p>Centro</p>
-                  <p>CEP 24020-220</p>
-                  <p>Niterói - RJ</p>
-                  <p> <i class="fas fa-phone-alt"></i> (21) 2717 5679</p>
-                  <i class="fas fa-globe"></i> <a target="_blank"  href="http://www.projetoamavida.org.br/">projetoamavida.org.br</a>
+                    <div class="card">
+                    <h4>Ama Vida</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> R.Cadete Xavier Leal 23</p>
+                    <p>Centro</p>
+                    <p>CEP 24020-220</p>
+                    <p>Niterói - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i> (21) 2717 5679</p>
+                     <a target="_blank"  href="http://www.projetoamavida.org.br/"> <i class="fas fa-globe"></i> projetoamavida.org.br</a>
+                  </div>
                 </div>
         
                 <div class="col-4 item">
-                  <h4>Projeto El Shaddai</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> Estrada Picos 100</p>
-                  <p>Picos 5º Distrito</p>
-                  <p>CEP 24800-000</p>
-                  <p>Itaboraí - RJ</p>
-                  <p> <i class="fas fa-phone-alt"></i> (21) 2604 7516</p>
-                  <i class="fas fa-globe"></i> <a  target="_blank" href="www.projetoelshaddai.org.br">projetoelshaddai.org.br</a>
+                  <div class="card">
+                    <h4>Projeto El Shaddai</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Estrada Picos 100</p>
+                    <p>Picos 5º Distrito</p>
+                    <p>CEP 24800-000</p>
+                    <p>Itaboraí - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i> (21) 2604 7516</p>
+                     <a  target="_blank" href="www.projetoelshaddai.org.br">  <i class="fas fa-globe"></i> projetoelshaddai.org.br</a>
+                  </div>
                 </div>
         
                 <div class="col-4 item">
-                  <h4>Creche Tio João</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> R. Dois nº 55</p>
-                  <p>Rocinha</p>
-                  <p>CEP 22451-260</p>
-                  <p>Rio de Janeiro - RJ</p>
-                  <p> <i class="fas fa-phone-alt"></i> (21) 2422 0782</p>
-                  <i class="fas fa-globe"></i> <a target="_blank"  href="https://www.iloverocinha.org.br/">iloverocinha.org.br</a>
+                  <div class="card">
+                    <h4>Creche Tio João</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> R. Dois nº 55</p>
+                    <p>Rocinha</p>
+                    <p>CEP 22451-260</p>
+                    <p>Rio de Janeiro - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i> (21) 2422 0782</p>
+                     <a target="_blank"  href="https://www.iloverocinha.org.br/">  <i class="fas fa-globe"></i> iloverocinha.org.br</a>
+                  </div>
                 </div>
         
                 <div class="col-4 item">
-                  <h4>Espaço Logos</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> R.Conde de Bonfim 964</p>
-                  <p>Usina</p>
-                  <p>CEP 20530-002</p>
-                  <p>Rio de Janeiro - RJ</p>
-                  <p> <i class="fas fa-phone-alt"></i> (21) 2268 0550</p>
-                  <i class="fas fa-globe"></i> <a target="_blank"  href="http://espacologos.org.br/site/">espacologos.org.br</a>
+                  <div class="card">
+                    <h4>Espaço Logos</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> R.Conde de Bonfim 964</p>
+                    <p>Usina</p>
+                    <p>CEP 20530-002</p>
+                    <p>Rio de Janeiro - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i> (21) 2268 0550</p>
+                     <a target="_blank"  href="http://espacologos.org.br/site/"> <i class="fas fa-globe"></i> espacologos.org.br</a>
+                  </div>
                 </div>
         
                 <div class="col-4 item">
-                  <h4>Casa Maria de Magdala</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> Estrada Washington Luiz 1956 - fundos</p>
-                  <p>Sapê</p>
-                  <p>CEP 24315-375</p>
-                  <p>Niterói - RJ</p>
-                  <p> <i class="fas fa-phone-alt"></i> (21) 2616 2233</p>
-                  <i class="fas fa-globe"></i> <a target="_blank"  href="https://www.casamariademagdala.org/">casamariademagdala.org/</a>
+                  <div class="card">
+                    <h4>Casa Maria de Magdala</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Estrada Washington Luiz 1956 - fundos</p>
+                    <p>Sapê</p>
+                    <p>CEP 24315-375</p>
+                    <p>Niterói - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i> (21) 2616 2233</p>
+                    <a target="_blank"  href="https://www.casamariademagdala.org/"> <i class="fas fa-globe"></i> casamariademagdala.org/</a>
+                  </div>
                 </div>
         
                 <div class="col-4 item">
-                  <h4>Casa do Menor</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> Estrada do Ambaí 222</p>
-                  <p>Miguel Arcanjo</p>
-                  <p>CEP 26147-390</p>
-                  <p>Nova Iguaçu - RJ</p>
-                  <p> </p><i class="fas fa-phone-alt"></i> (21) 2658 0033</p>
-                  <i class="fas fa-globe"></i> <a target="_blank"  href="https://casadomenor.org/?lang=pt-br">casadomenor.org</a>
+                  <div class="card">
+                    <h4>Casa do Menor</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Estrada do Ambaí 222</p>
+                    <p>Miguel Arcanjo</p>
+                    <p>CEP 26147-390</p>
+                    <p>Nova Iguaçu - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i> (21) 2658 0033</p>
+                    <a target="_blank"  href="https://casadomenor.org/?lang=pt-br">  <i class="fas fa-globe"></i> casadomenor.org</a>
+                  </div>
                 </div>
         
                 <div class="col-4 item">
-                  <h4>REFAZER</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> R.Hans Staden 34</p>
-                  <p>Botafogo</p>
-                  <p>CEP 22281-060</p>
-                  <p>Rio de Janeiro - RJ</p>
-                  <p></p><i class="fas fa-phone-alt"></i> (21) 2527 3434</p>
-                  <i class="fas fa-globe"></i> <a target="_blank"  href="https://www.refazer.org.br/">refazer.org.br/</a>
+                  <div class="card">
+                    <h4>REFAZER</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> R.Hans Staden 34</p>
+                    <p>Botafogo</p>
+                    <p>CEP 22281-060</p>
+                    <p>Rio de Janeiro - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i> (21) 2527 3434</p>
+                     <a target="_blank"  href="https://www.refazer.org.br/"> <i class="fas fa-globe"></i> refazer.org.br/</a>
+                  </div>
                 </div>
 
                 <div class="col-4 item">
-                  <h4>Associação Girassol</h4>
-                  <p> <i class="fas fa-map-marker-alt"></i> Rua Silveira Martins, 80</p>
-                  <p>Catete</p>
-                  <p>CEP 22221-000</p>
-                  <p>Rio de Janeiro - RJ</p>
-                  <p> </p><i class="fas fa-phone-alt"></i>  (21) 991249052 ou (21) 998875779</p>
-                  <i class="fas fa-globe"></i> <a  target="_blank" href="http://www.girassolplenainclusao.org.br/">girassolplenainclusao.org.br/</a>
+                  <div class="card">
+                    <h4>Associação Girassol</h4>
+                    <p> <i class="fas fa-map-marker-alt"></i> Rua Silveira Martins, 80</p>
+                    <p>Catete</p>
+                    <p>CEP 22221-000</p>
+                    <p>Rio de Janeiro - RJ</p>
+                    <p> <i class="fas fa-phone-alt"></i>  (21) 991249052 ou (21) 998875779</p>
+                     <a  target="_blank" href="http://www.girassolplenainclusao.org.br/"> <i class="fas fa-globe"></i> girassolplenainclusao.org.br/</a>
+                  </div>
                 </div>
                 
               </ul>

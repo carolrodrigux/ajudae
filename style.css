@@ -3,22 +3,56 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
-    background-color: #dceaf3;
-    color: rgb(51, 51, 51);
+    background-color:#f8f8f8;
+    color: #393e46;
+}
+
+
+header{
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+header img{
+    max-width: 100px;
+    margin-top: 50px;
 }
 
 h1{
-    margin: 50px 0px;
+    color: cadetblue;
 }
 
-.item{
-    margin-top: 50px;
-    line-height:0.5;
+h3{
+    margin: 15px 0px;
+}
+
+input{
+    margin: 0 0 50px 0;
+}
+
+.item{        
+    margin: 50px 0 50px;          
+}
+
+.card {
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card p{
+    margin-bottom: 0px;
 }
 
 a{
     text-decoration: none;
-    color: rgb(65, 64, 64);
+    color: cadetblue;
+    transition: all ease .5s;
+}
+
+a:hover {
+    color: rgb(68, 122, 124);
 }
 
 footer{
